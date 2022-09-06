@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/showTimeFragment">
+
+    <fragment
+        android:id="@+id/showTimeFragment"
+        android:name="com.example.article_1.ShowTimeFragment"
+        android:label="fragment_show_time"
+        tools:layout="@layout/fragment_show_time" >
+        <action
+            android:id="@+id/action_showTimeFragment_to_addTimerFragment"
+            app:destination="@id/addTimerFragment" />
+        <action
+            android:id="@+id/action_showTimeFragment_to_changeFragment"
+            app:destination="@id/changeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addTimerFragment"
+        android:name="com.example.article_1.AddTimerFragment"
+        android:label="fragment_add_timer"
+        tools:layout="@layout/fragment_add_timer" />
+    <fragment
+        android:id="@+id/changeFragment"
+        android:name="com.example.article_1.ChangeFragment"
+        android:label="fragment_change"
+        tools:layout="@layout/fragment_change" />
+</navigation>
