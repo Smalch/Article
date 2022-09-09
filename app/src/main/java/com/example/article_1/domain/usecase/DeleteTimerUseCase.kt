@@ -6,7 +6,7 @@ import com.example.article_1.domain.repository.TimerRepository
 class DeleteTimerUseCase(private val timerRepository : TimerRepository) {
 
 
-    suspend fun delete(timer: Timer){
+    suspend fun deleteTimer(timer: Timer){
         timerRepository.deleteTimer(timer)
     }
 }

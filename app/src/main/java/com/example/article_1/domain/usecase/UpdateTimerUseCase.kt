@@ -5,7 +5,7 @@ import com.example.article_1.domain.repository.TimerRepository
 
 class UpdateTimerUseCase(private val timerRepository: TimerRepository) {
 
-    suspend fun update(timer : Timer){
+    suspend fun updateTimer(timer : Timer){
         timerRepository.updateTimer(timer)
     }
 
