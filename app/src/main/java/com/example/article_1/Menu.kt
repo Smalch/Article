@@ -6,26 +6,26 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.example.article_1.presentation.viewmodel.ShowTimeViewModel
+import com.example.article_1.presentation.viewmodel.MenuViewModel
 
-class ShowTimeFragment : Fragment() {
+class Menu : Fragment() {
 
     companion object {
-        fun newInstance() = ShowTimeFragment()
+        fun newInstance() = Menu()
     }
 
-    private lateinit var viewModel: ShowTimeViewModel
+    private lateinit var viewModel: MenuViewModel
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.fragment_show_time, container, false)
+        return inflater.inflate(R.layout.fragment_menu, container, false)
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-        viewModel = ViewModelProvider(this).get(ShowTimeViewModel::class.java)
+        viewModel = ViewModelProvider(this).get(MenuViewModel::class.java)
         // TODO: Use the ViewModel
     }
 

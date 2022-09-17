@@ -3,28 +3,25 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/showTimeFragment">
-
+    app:startDestination="@id/menu">
     <fragment
-        android:id="@+id/showTimeFragment"
-        android:name="com.example.article_1.ShowTimeFragment"
-        android:label="fragment_show_time"
-        tools:layout="@layout/fragment_show_time" >
-        <action
-            android:id="@+id/action_showTimeFragment_to_addTimerFragment"
-            app:destination="@id/addTimerFragment" />
-        <action
-            android:id="@+id/action_showTimeFragment_to_changeFragment"
-            app:destination="@id/changeFragment" />
-    </fragment>
+        android:id="@+id/profile"
+        android:name="com.example.article_1.Profile"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
     <fragment
-        android:id="@+id/addTimerFragment"
-        android:name="com.example.article_1.AddTimerFragment"
-        android:label="fragment_add_timer"
-        tools:layout="@layout/fragment_add_timer" />
+        android:id="@+id/menu"
+        android:name="com.example.article_1.Menu"
+        android:label="fragment_menu"
+        tools:layout="@layout/fragment_menu" />
     <fragment
-        android:id="@+id/changeFragment"
-        android:name="com.example.article_1.ChangeFragment"
-        android:label="fragment_change"
-        tools:layout="@layout/fragment_change" />
+        android:id="@+id/dayTasks"
+        android:name="com.example.article_1.DayTasks"
+        android:label="fragment_day_tasks"
+        tools:layout="@layout/fragment_day_tasks" />
+    <fragment
+        android:id="@+id/courses"
+        android:name="com.example.article_1.Courses"
+        android:label="fragment_courses"
+        tools:layout="@layout/fragment_courses" />
 </navigation>

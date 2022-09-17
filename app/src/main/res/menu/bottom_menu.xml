@@ -3,11 +3,19 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/changeFragment"
-        android:icon="@drawable/ic_baseline_class_24"
-        android:title="Change" />
+        android:id="@+id/menu"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Главная" />
     <item
-        android:id="@+id/addTimerFragment"
-        android:icon="@drawable/ic_baseline_add_24"
-        android:title="Add" />
+        android:id="@+id/profile"
+        android:icon="@drawable/ic_baseline_class_24"
+        android:title="Профиль" />
+    <item
+        android:id="@+id/dayTasks"
+        android:icon="@drawable/ic_baseline_insert_comment_24"
+        android:title="Задания дня" />
+    <item
+        android:id="@+id/courses"
+        android:icon="@drawable/ic_baseline_cast_for_education_24"
+        android:title="Курсы" />
 </menu>

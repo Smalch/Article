@@ -6,26 +6,25 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.example.article_1.presentation.viewmodel.AddTimerViewModel
 
-class AddTimerFragment : Fragment() {
+class Courses : Fragment() {
 
     companion object {
-        fun newInstance() = AddTimerFragment()
+        fun newInstance() = Courses()
     }
 
-    private lateinit var viewModel: AddTimerViewModel
+    private lateinit var viewModel: CoursesViewModel
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.fragment_add_timer, container, false)
+        return inflater.inflate(R.layout.fragment_courses, container, false)
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-        viewModel = ViewModelProvider(this).get(AddTimerViewModel::class.java)
+        viewModel = ViewModelProvider(this).get(CoursesViewModel::class.java)
         // TODO: Use the ViewModel
     }
 
