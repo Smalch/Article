@@ -8,4 +8,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="backgroundColour">#21094A</color>
+    <color name="textColour">#FFFFFFFF</color>
+    <color name="subLayoutColour">#3F51B5</color>
+    <color name="subLayoutButtonColour">#03A9F4</color>
 </resources>

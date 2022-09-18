@@ -3,11 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Smalch/AndroidStudioProjects/Article_1/app/src/main/res/drawable/bottom_nav_icon_color_selector.xml" value="0.346" />
+        <entry key="..\:/Users/Smalch/AndroidStudioProjects/Article_1/app/src/main/res/drawable/layout_bg.xml" value="0.346" />
         <entry key="..\:/Users/Smalch/AndroidStudioProjects/Article_1/app/src/main/res/layout/activity_main.xml" value="0.1522289766970618" />
         <entry key="..\:/Users/Smalch/AndroidStudioProjects/Article_1/app/src/main/res/layout/fragment_add_timer.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Smalch/AndroidStudioProjects/Article_1/app/src/main/res/layout/fragment_courses.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Smalch/AndroidStudioProjects/Article_1/app/src/main/res/layout/fragment_day_tasks.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/Smalch/AndroidStudioProjects/Article_1/app/src/main/res/layout/fragment_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Smalch/AndroidStudioProjects/Article_1/app/src/main/res/layout/fragment_menu.xml" value="0.25" />
         <entry key="..\:/Users/Smalch/AndroidStudioProjects/Article_1/app/src/main/res/layout/fragment_profile.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Smalch/AndroidStudioProjects/Article_1/app/src/main/res/layout/fragment_show_time.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Smalch/AndroidStudioProjects/Article_1/app/src/main/res/menu/bottom_menu.xml" value="0.275" />

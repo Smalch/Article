@@ -5,14 +5,16 @@
     <item
         android:id="@+id/menu"
         android:icon="@drawable/ic_baseline_home_24"
-        android:title="Главная" />
+        android:title="Главная"
+        android:visible="true" />
     <item
         android:id="@+id/profile"
         android:icon="@drawable/ic_baseline_class_24"
-        android:title="Профиль" />
+        android:title="Профиль"
+        android:visible="true" />
     <item
         android:id="@+id/dayTasks"
-        android:icon="@drawable/ic_baseline_insert_comment_24"
+        android:icon="@drawable/ic_baseline_comment_24"
         android:title="Задания дня" />
     <item
         android:id="@+id/courses"
